@@ -23,7 +23,9 @@ except sr.ResquestError as e:
 
 # r = sr.Recognizer(): Cria uma nova instância da classe Recognizer da biblioteca SpeechRecognition, que é usada para reconhecer o áudio capturado.
 
+# with sr.Microphone() as source:: Abre o microfone do computador como uma fonte de áudio para o reconhecimento de voz. O bloco de código dentro do with será executado enquanto o microfone estiver aberto.
 
+# print("Diga alguma coisa:"): Exibe uma mensagem para solicitar que o usuário fale alguma coisa.
 
 
 
